@@ -1,0 +1,6 @@
+hadoop HDFS
+datanade
+common yarn
+namenode
+hadoop common
+namenode

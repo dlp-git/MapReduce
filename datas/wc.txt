@@ -1,0 +1,4 @@
+linux wc cp
+wc tail head
+head scp scp
+linux  grep
