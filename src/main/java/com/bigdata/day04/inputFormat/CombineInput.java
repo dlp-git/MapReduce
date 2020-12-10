@@ -47,7 +47,7 @@ public class CombineInput {
     }
     public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
         Configuration conf = new Configuration();
-        Job job=Job.getInstance(conf,"SequenceFileInputFormat");
+        Job job=Job.getInstance(conf,"CombineTextInputFormat");
         job.setJarByClass(CombineInput.class);
 
 //        优化对小文件的处理——>设置读取数据的方式为：CombineTextInputFormat

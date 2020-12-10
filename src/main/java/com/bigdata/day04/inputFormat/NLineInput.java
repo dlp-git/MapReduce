@@ -18,7 +18,7 @@ import java.io.IOException;
 
 public class NLineInput {
     /**
-     * 默认TextInputFormat：一个block为一次切片，每次输入一个block
+     * 默认TextInputFormat：一个block为一次切片，每次输入一行
      * NLineInputFormat：设置多行输入，n行为一个切片，每次输入n行
      * 测试文件：wc.txt
      */

@@ -19,7 +19,7 @@ import java.io.IOException;
 
 public class KeyValueInput {
     /**
-     * 默认TextInputFormat：一个block为一次切片，每次输入一个block
+     * 默认TextInputFormat：一个block为一次切片，每次输入一行
      * KeyValueTextInputFormat：每行由分隔符字节分为键和值部分
      *  B:A,C,E,K
      *  A:B,C,D,F,E,O  friends.txt
